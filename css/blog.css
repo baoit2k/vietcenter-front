@@ -1,0 +1,120 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html,body {
+	font-family: Arial;
+}
+header {
+	background: url("../img/banner-tour.png");
+	height: 300px;
+}
+header div.header {
+	width: 100%;
+	margin: auto;
+	background: #205b86;	
+}
+header div.container{
+	background: #205b86;
+}
+header div.wrap {
+	width: 70%;
+	margin: auto;
+	padding: 8px;
+	display: flex;
+	position: relative;
+}
+header div.wrap div.wraper{
+	width: 70%;
+}
+header div.wrap div.wraper span {
+	color: #fcf2ad;
+	font-size: 18px;
+}
+header div.wrap div.menu {
+	position: absolute;
+	right: 0px;
+	width: 30%;
+}
+header div.wrap div.menu ul {
+	text-align: center;
+}
+header div.wrap div.menu ul li {
+	display: inline-table;
+	padding: 0px 5%;
+	border-right: 1px solid #fcf2ad;
+}
+header div.wrap div.menu ul li a{
+	text-decoration: none;
+	color: #fcf2ad;
+	font-family: Segoe UI;
+	font-size: 14px;
+}
+header div.wrap div.menu ul li:last-child{
+	border-right: none;
+}
+header hr {
+	opacity: 0.3;
+}
+header div.header div.nav {
+	width: 70%;
+	margin: auto;
+}
+header div.header div.nav img {
+	float: left;
+}
+header div.header div.nav ul {
+	float: left;
+	margin-left: 77px;
+}
+header div.header div.nav ul li {
+	display: inline-table;
+	padding:25px 20px;
+
+}
+header div.header div.nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+section {
+	width: 100%;
+	
+
+	
+}
+section div.banner{
+	width: 100%;
+	background: url('../img/banner-tour.png') no-repeat;
+	height: 500px;
+	position: relative;
+	top: 0px;
+	background-size: cover;
+	
+	
+	
+}
+section div.banner div.form-seach{
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	position: absolute;
+	top: 35%;
+	left: 25%;
+}
+section div.banner div.form-seach input {
+	width: 80%;
+	height: 47px;
+	border-radius: 7px;
+	font-family: Segoe UI;
+	font-size: 16px;
+}
+section div.banner div.form-seach button {
+	width: 10%;
+	height: 47px;
+	border-radius: 7px;
+	font-weight: bold;
+	color: #fff;
+	background: #73c04a;
+}

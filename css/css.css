@@ -1,0 +1,124 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header {
+	background: #124972;
+	height: 504px;
+	opacity: inherit;
+	position: relative;
+	background: url("../img/banner-tour.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	
+}
+header div.container-fluid {
+	padding: 0px 0px;
+	background: #1f5c88;
+	opacity: 0.7;
+}
+header div.container-fluid div.container {
+	padding: 0px 0px;
+	height: 114px;
+}
+header div.container-fluid div.container div.dt {
+	padding-top: 8px;
+}
+
+header div.container-fluid div.container div.row div.col-md-8 a {
+	font-size: 18px;
+	font-family: Arial;
+	color: #c6c8a1;
+}
+header div.container-fluid div.container div.row div.col-md-4 ul {
+	text-align: center;
+	
+	margin: 0px 0px;
+}
+header div.container-fluid div.container div.row div.col-md-4 ul li {
+	display: inline-table;
+	padding: 0px 10px;
+	border-right: 1px solid #c6c8a1;
+}
+header div.container-fluid div.container div.row div.col-md-4 ul li:last-child{
+	border-right: none;
+}
+header div.container-fluid div.container div.row div.col-md-4 ul li a{
+	color: #c6c8a1;
+}
+header div.container-fluid div.container div.row div.col-md-2 {
+	padding: 0px 0px;
+}
+header div.container-fluid div.container div.row div.col-md-10{
+	margin: 0px 0px;
+}
+header div.container-fluid div.container div.row div.col-md-10 ul {
+	text-align: center;
+	margin: 10px 10px;
+}
+header div.container-fluid div.container div.row div.col-md-10 ul li {
+	display: inline-table;
+	padding: 10px 10px;
+}
+header div.container-fluid div.container div.row div.col-md-10 ul li a{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+header  div.form-seach{
+	position: absolute;
+ 	top: 50%;
+ 	left: 30%;
+}
+header  div.form-seach input[type=text] {
+	width: 700px;
+	height: 50px;
+	border-bottom-left-radius : 10px;
+	border-top-left-radius : 10px;
+}
+header  div.form-seach input[type=submit] {
+	width: 100px;
+	height: 50px;
+	background: #73c04a;
+	
+	border-bottom-right-radius : 10px;
+	border-top-right-radius : 10px;
+
+}
+section div.container {
+	margin-top: 10px;
+}
+section div.container div.row div.col-md-6 img {
+	vertical-align: baseline;
+	padding: 0px 4px;
+}
+section div.container div.row div.col-md-6{
+	display: flex;
+	flex-wrap : wrap;
+}
+section div.container div.row div.col-md-6 div.img {
+	position: relative;
+}
+section div.container div.row div.col-md-6 div.caption {
+	position: absolute;
+	top: 150px;
+	left: 50px;
+	text-align: center;
+}
+section div.container div.row div.col-md-6 div.caption h5 {
+	color: #fff;
+}
+section div.container div.row div.col-md-6 div.caption p {
+	color: #fff;
+}
+section div.container div.row div.col-md-6 div.caption button {
+	border: 1px solid #fff;
+	color: #fff;
+}
+section div.container div.row div.col-md-6 div.caption {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	text-align: center;
+}
